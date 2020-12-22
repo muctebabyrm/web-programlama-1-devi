@@ -1,0 +1,79 @@
+body{margin:0px; padding: 0px; font-family: Open Sans,sans-serif; font-size: 15px;}
+.cerceve{
+    width: 999px;
+    margin: auto;
+    border-top:5px solid #4b1b5b;
+    height: 500px;
+}
+.banner{margin-top:10px; padding: 10px; height: 128px;}
+.logo{float: left; width: 50%;}
+.bannerSag{float: left;width: 50%; text-align: right;}
+.bannerSag ul{ list-style-type: none; padding: 0px; margin: 0px;}
+.bannerSag ul li{float: right; padding: 3px;}
+.bannerSag .ara{width:250px;  height: 38px; color: gray;}
+
+.bannerSag button{width: 35px; height: 38px; background: url(images/mektup.png) center; border: none;}
+.bannerSag button:hover{background: url(images/mektup2.png) center; cursor: pointer; }
+.bannerSag .dil a{text-decoration: none;color:#3fa8cb;}
+.menu{background-color: #4b1b5b; height: 50px;}
+.menu ul{ list-style-type: none; padding: 2px 15px; margin: 0px;}
+.menu ul li{float: left; padding: 10px 10px;}
+.menu ul li a{color: #c6b6cb; text-decoration: none; }
+.menu ul li.aktif{border-bottom: 1px solid white;}
+.menu ul li.aktif a{color: white;}
+.menu ul li a:hover{color: white;}
+.slayt{height: 260px; overflow: hidden;}
+#slayt1{height: 260px; background: url(images/1.jpg) center;  background-size: cover; display: block;}
+#slayt2{height: 260px; background: url(images/2.jpg) center;  background-size: cover; display: none;}
+#slayt3{height: 260px; background: url(images/3.jpg) center;  background-size: cover; display: none;}
+.slayt .sol{float: left; width: 35px; height: 260px; background: url(images/sol.png) center no-repeat;cursor: pointer;}
+.slayt .sag{float: right; width: 35px; height: 200px; background: url(images/sag.png) center no-repeat; cursor: pointer; }
+.kutu1{width:33.333%; height: 334px; background-color: #dedede; float: left; text-align: center;}
+.kutu2{width:33.333%; height: 334px; background-color: #e7e7e7; float: left;}
+.kutu1 a,.kutu2 a{ text-decoration: none; text-align: center; color:#4b1b5b; display: block; width: 50%; margin: auto; padding: 10px; margin-top:10px; border-top:2px solid #949195;border-bottom:2px solid #949195;}
+.kutu1 a:hover,.kutu2 a:hover{color:#81279f;}
+.kutu1 span,.kutu2 span{ color:#555555;font-size:14px; display: block; width: 80%; margin: auto; padding: 2px; margin-top:2px;}
+.kutu1 span:hover,.kutu2 span:hover{color:#81279f;}
+
+.daire{margin: auto; margin-top:30px;  width: 150px; height: 150px; border: 1px solid #bbbbbb; border-radius: 75px;box-shadow: 5px 10px gray; box-shadow: 0px 0px 20px 20px #cccccc;}
+.daire1{background: #ffffff url(images/kutu1.jpg) center no-repeat; background-size: contain;}
+.daire2{background: #ffffff url(images/kutu2.jpg) center no-repeat; background-size: contain;}
+.daire3{background: #ffffff url(images/kutu3.jpg) center no-repeat; background-size: contain;}
+.daire4{background: #ffffff url(images/kutu4.jpg) center no-repeat; background-size: contain;}
+.daire5{background: #ffffff url(images/kutu5.jpg) center no-repeat; background-size: contain;}
+.daire6{background: #ffffff url(images/kutu6.jpg) center no-repeat; background-size: contain;}        
+.taban1{clear:both;  height: 100px; background-color:#4b1b5b;}
+.taban1 img{background: #fff; width: 50px; height: 50px; margin: 5px; float: left;}
+.taban1 audio{float: right; width: 900px; padding: 10px}
+.taban2{height: 100px; background-color:#3a3a3c; overflow: hidden;}
+.taban2 .tKutu{ width: 33.333%; height: 100px; text-align: center; padding-top: 40px; float: left;}
+.taban2 .tKutu a, .taban2 .tKutu span{color: white; text-decoration: none;}
+.taban2 .fontKucuk{font-size: 11px !important;}
+
+.ozgecmis{background: #e7e7e7; margin-top: 0px; padding: 20px; }
+.ozgecmis h2{ color:#4b1b5b; display: block; width: 30%; text-align: center; margin: auto; padding: 10px; margin-top:10px; border-top:2px solid #949195;border-bottom:2px solid #949195;}
+.ozgecmis p{font-size: 18px;}
+.ozgecmis a{color:#4b1b5b; text-decoration: none;}
+.element {
+    -webkit-animation: opak 1s;
+    -moz-animation:    opak 1s;
+    -o-animation:      opak 1s;
+    animation:         opak 1s;
+    }
+    
+    @-webkit-keyframes opak {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @-moz-keyframes opak {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @-o-keyframes opak {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes opak {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+    }

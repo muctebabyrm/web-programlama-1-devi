@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <title>Özgeçmiş</title>
+    <link rel="stylesheet"  href="style.css">
+    
+
+<script>
+    var numara=1;
+    function slayt(islem){
+        numara=numara + islem;
+        if(numara==0) numara=3;
+        if(numara==4) numara=1;
+
+        for(i=1;i<=3;i++)
+            document.getElementById('slayt'+i).style.display="none";
+
+        document.getElementById('slayt'+numara).style.display="block";
+
+        document.getElementById('slayt'+numara).className = "element";
+
+        
+
+    }
+</script>
+
+</head>
+<body>
+<div class="cerceve">
+    <div class="banner">
+        <div class="logo"><a href="index.html"><img src="images/index.png"></a></div>
+        <div class="bannerSag">
+            <ul>
+                <li><a href="#"><img src="images/fizy.png"></a></li>
+                <li><a href="#"><img src="images/muud.png"></a></li>
+                <li><a href="#"><img src="images/itunes.png"></a></li>
+                <li><a href="#"><img src="images/deezer.png"></a></li>
+                <li><a href="#"><img src="images/spotify.png"></a></li>
+                <li><a href="#"><img src="images/face.png"></a></li>
+                <form>
+                <li style="clear: both; padding-left: 0px;"><button type="button"></button></li>
+                <li style="padding-right: 0px;;"><input class="ara" type="text" value="E-BÜLTEN ABONELİĞİ"></li>
+                
+                </form>
+                <li class="dil" style="clear: both;"><a href="#">EN</a></li>
+                
+               
+            </ul>
+        </div>
+
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">ANASAYFA</a></li>
+            <li class="aktif"><a href="ozgecmis.html">ÖZGEÇMİŞ</a></li>
+            <li><a href="#">SEZEN'DEN</a></li>
+            <li><a href="#">BASIN</a></li>
+            <li><a href="#">TÜM YAPITLAR</a></li>
+            <li><a href="#">VİDEOLAR</a></li>
+            <li><a href="#">FOTOĞRAFLAR</a></li>
+            <li><a href="#">İLETİŞİM</a></li>
+        </ul>
+    </div>
+    <div class="slayt">
+        <div class="sol" onclick="slayt(-1)"></div>
+        <div class="sag" onclick="slayt(1)"></div>
+        <div id="slayt1"></div>
+        <div id="slayt2"></div>
+        <div id="slayt3"></div>
+    </div>
+    <div class="icerik">
+        <div class="ozgecmis">
+            <h2>ÖZGEÇMİŞ</h2>
+            <p>Ben Mücteba Bayram. 1995’te Samsun Bafra’da doğdum. İlk ve orta okul hayatımı Bafra’da lise hayatımı Anakarada tamamladım. Liseden sonra 2 yıllık Bilgisayar Programcılığı okuyup DGS ile Bilgisayar Mühendisliğine geçiş yaptım. Okulumda derin öğrenme ile kıyafetlerin uyumunu ölçen bir proje yaptım. Bunun dışında veri tapılarında ağaç algoritmaları kullanarak en hızlı şekilde hedef bulma projeleri yaptım. Machine Learning kullanarak klavyeye hangi elin ve hangi parmağın dokunduğunu tahmin eden bir proje hazırladım. 
+
+            </p>
+            <p><a href="Githup linki: https://github.com/muctebabyrm">Githup linki: https://github.com/muctebabyrm</a></p>            
+        </div>
+
+    </div>
+    <div class="taban1">
+        <img src="images/index.png">
+        <audio controls>
+            <source src="images/sarki.ogg" type="audio/ogg">
+            <source src="images/sarki.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio> 
+
+    </div>
+    <div class="taban2">
+        <div class="tKutu"><a href="#">GÜNCELLEMELER</a></div>
+        <div class="tKutu fontKucuk"><a href="#">SSS</a> <a href="#">Kullanım Koşulları</a></div>
+        <div class="tKutu fontKucuk"><span>© Sezen Aksu 2007-2020 | Tüm Hakları Saklıdır.<br> powered by <img src="images/diginity.png" width="40" style="margin-bottom: -3px;"> </span></div>
+    </div>
+
+</div>
+</body>
+</html>
